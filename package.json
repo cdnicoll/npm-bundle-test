@@ -1,0 +1,14 @@
+{
+  "name": "@cdnicoll/npm-bundle-test",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lerna:build": "npx lerna run build",
+    "lerna:clean": "npx lerna clean -y",
+    "lerna:graph": "npx nx graph"
+  },
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@ocupop/tooltip",
+  "version": "0.1.36",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Ocupop",
+  "homepage": "https://ocupop.com/",
+  "repository": "https://github.com/ocupop/ocubits.git",
+  "bugs": {
+    "url": "https://github.com/ocupop/ocubits/issues"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && rollup --config"
+  },
+  "dependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-tooltip": "^5.13.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "rollup": "^2.60.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "gitHead": "5156f4a4cb22d87cf6928266ea645f351fa9c8ea"
+}
